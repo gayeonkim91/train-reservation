@@ -1,0 +1,12 @@
+dependencies {
+	implementation(project(':reservation-domain'))
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+jar {
+	enabled = false
+}
+bootJar {
+	enabled = true
+}

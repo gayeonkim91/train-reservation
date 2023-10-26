@@ -1,0 +1,3 @@
+rootProject.name = 'train-reservation'
+include 'reservation-domain'
+include 'reservation-api'
